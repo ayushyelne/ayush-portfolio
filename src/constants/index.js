@@ -46,7 +46,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Mobile Application Developer",
     icon: mobile,
   },
   {
@@ -116,11 +116,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Quant Intern",
+    company_name: "Traderware",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "July 2024 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,42 +129,40 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Software Developer Intern",
+    company_name: "Kintsugi Global",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2024 - July 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed the backend for the company’s online store using Node.js and Express.js, reducing server response time by 30% and improving overall site performance.",
+      "Collaborated on the front-end development by creating React components with React.js and Tailwind CSS, enhancing user interface responsiveness and reducing page load time by 15%.",
+      "Integrated Stripe payment gateway into the store’s website, resulting in a 20% increase in successful transactions and a smoother user payment experience.",
+      "Automated CI/CD pipelines and deployed on AWS, reducing deployment time by 40% and ensuring 99.9% uptime.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Software Developer Intern",
+    company_name: "Future Fitness Technology",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "June 2022 - Dec 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Engineered an agile development approach for the company’s website using React, Node.js, and MongoDB; increased traffic by 30% and reduced server response time by 50%, significantly improving site performance..",
+      "Built RESTful APIs with Node.js and Express.js to optimize client-server communication; reduced API response time by 40% and increased scalability to handle 2x more users concurrently.",
+      "Implemented CI/CD pipelines with Jenkins, using Docker and Kubernetes for scalable microservices architecture.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Software Developer Intern",
+    company_name: "OCC Edusoft",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Dec 2021 - March 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Architected a sophisticated car rental system leveraging PHP and Flask for backend, and Vue.js and React.js for frontend; boosted platform engagement by 30% and cut development cycles by 15%",
+      "Optimized rental service operations by integrating Google Maps for geolocation services, improving route efficiency by 20% and cutting transportation costs by 15%.",
+      "Utilized Amazon Web Services (AWS) for cloud hosting and managed services, ensuring high availability and reliability of the car rental platform.",
     ],
   },
 ];
@@ -198,28 +196,28 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Stock Insigts",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
+        name: "angular",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://ayush1621.wl.r.appspot.com",
   },
   {
-    name: "Job IT",
+    name: "One Stop Shop",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -228,37 +226,37 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ayushyelne/ecommerce-mini-project.git",
   },
   {
-    name: "Trip Guide",
+    name: "Smart Attendance System",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "flask",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "sql",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ayushyelne/Smart-Attendance-System-With-Face-Recognition.git",
   },
 ];
 
