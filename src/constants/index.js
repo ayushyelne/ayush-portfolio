@@ -122,10 +122,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "July 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and implemented a comprehensive backtesting system for stock trading strategies using Python and yfinance.",
+      "Calculated key performance metrics such as cumulative returns, maximum drawdown, and annualized volatility to evaluate the effectiveness of trading strategies.",
+      "Incorporated stop-loss functionality to manage risk and improve trading performance.",
+      "Developed a backtesting engine for customizable trading strategies with dynamic buy/sell signals.",
     ],
   },
   {
@@ -235,7 +235,8 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/ayushyelne/ecommerce-mini-project.git",
+    source_code_link:
+      "https://github.com/ayushyelne/ecommerce-mini-project.git",
   },
   {
     name: "Smart Attendance System",
@@ -256,7 +257,8 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/ayushyelne/Smart-Attendance-System-With-Face-Recognition.git",
+    source_code_link:
+      "https://github.com/ayushyelne/Smart-Attendance-System-With-Face-Recognition.git",
   },
 ];
 
