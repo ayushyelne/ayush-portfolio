@@ -15,15 +15,19 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
 } from "../assets";
+
+import imaginify from "../assets/imaginify.png";
+import stock from "../assets/stock.png";
+import attendance from "../assets/attendance.png";
+import traderware from "../assets/company/traderware.png";
+import kintsugi from "../assets/company/kintsugi.png";
+import edusoft from "../assets/company/edusoft.png";
+import brandpreneur from "../assets/company/brandpreneur.png";
 
 export const navLinks = [
   {
@@ -118,7 +122,7 @@ const experiences = [
   {
     title: "Quant Intern",
     company_name: "Traderware",
-    icon: starbucks,
+    icon: traderware,
     iconBg: "#383E56",
     date: "July 2024 - Present",
     points: [
@@ -131,7 +135,7 @@ const experiences = [
   {
     title: "Software Developer Intern",
     company_name: "Kintsugi Global",
-    icon: tesla,
+    icon: kintsugi,
     iconBg: "#E6DEDD",
     date: "May 2024 - July 2024",
     points: [
@@ -144,8 +148,8 @@ const experiences = [
   {
     title: "Software Developer Intern",
     company_name: "Future Fitness Technology",
-    icon: shopify,
-    iconBg: "#383E56",
+    icon: brandpreneur,
+    iconBg: "#ffffff",
     date: "June 2022 - Dec 2022",
     points: [
       "Engineered an agile development approach for the company’s website using React, Node.js, and MongoDB; increased traffic by 30% and reduced server response time by 50%, significantly improving site performance..",
@@ -156,7 +160,7 @@ const experiences = [
   {
     title: "Software Developer Intern",
     company_name: "OCC Edusoft",
-    icon: meta,
+    icon: edusoft,
     iconBg: "#E6DEDD",
     date: "Dec 2021 - March 2022",
     points: [
@@ -196,9 +200,30 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Imaginify",
+    description:
+      "Web-based platform for real-time stock data and portfolio management allowing users to maintain their portfolios and watchlists efficiently.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: imaginify,
+    source_code_link: "https://imaginify-ivory-rho.vercel.app/",
+  },
+  {
     name: "Stock Insigts",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform for real-time stock data and portfolio management allowing users to maintain their portfolios and watchlists efficiently.",
     tags: [
       {
         name: "angular",
@@ -213,7 +238,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: stock,
     source_code_link: "https://ayush1621.wl.r.appspot.com",
   },
   {
@@ -256,7 +281,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: attendance,
     source_code_link:
       "https://github.com/ayushyelne/Smart-Attendance-System-With-Face-Recognition.git",
   },
