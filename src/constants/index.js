@@ -120,7 +120,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Quant Intern",
+    title: "Data Science Intern",
     company_name: "Traderware",
     icon: traderware,
     iconBg: "#383E56",

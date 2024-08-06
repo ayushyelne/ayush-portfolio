@@ -49,7 +49,7 @@ const About = () => {
       >
         I'm a skilled software developer with hands-on
         experience in TypeScript and JavaScript, and expertise in frameworks
-        like React, Node.js, and Three.js. During my internships and projects,
+        like React, Node.js and Next.js. During my internships and projects,
         I've collaborated closely with clients to create efficient, scalable,
         and user-friendly solutions that solve real-world problems. I'm a quick
         learner and passionate about leveraging my skills to bring innovative
