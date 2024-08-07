@@ -202,7 +202,7 @@ const projects = [
   {
     name: "Imaginify",
     description:
-      "Web-based platform for real-time stock data and portfolio management allowing users to maintain their portfolios and watchlists efficiently.",
+      "Web-based AI platform for advanced image processing, enabling users to remove backgrounds, restore images, apply generative fill, remove objects, recolor objects, and more.",
     tags: [
       {
         name: "nextjs",
@@ -244,7 +244,7 @@ const projects = [
   {
     name: "One Stop Shop",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Online marketplace for students to buy and sell pre-owned school stationery efficiently.",
     tags: [
       {
         name: "react",
@@ -266,7 +266,7 @@ const projects = [
   {
     name: "Smart Attendance System",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "AI-driven attendance system utilizing face recognition for seamless and accurate student tracking.",
     tags: [
       {
         name: "python",
