@@ -124,7 +124,7 @@ const experiences = [
     company_name: "Traderware",
     icon: traderware,
     iconBg: "#383E56",
-    date: "July 2024 - Present",
+    date: "July 2024 - August 2024",
     points: [
       "Designed and implemented a comprehensive backtesting system for stock trading strategies using Python and yfinance.",
       "Calculated key performance metrics such as cumulative returns, maximum drawdown, and annualized volatility to evaluate the effectiveness of trading strategies.",
