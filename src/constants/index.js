@@ -120,16 +120,15 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Data Science Intern",
+    title: "Software Developer Intern",
     company_name: "Traderware",
     icon: traderware,
     iconBg: "#383E56",
     date: "July 2024 - August 2024",
     points: [
-      "Designed and implemented a comprehensive backtesting system for stock trading strategies using Python and yfinance.",
-      "Calculated key performance metrics such as cumulative returns, maximum drawdown, and annualized volatility to evaluate the effectiveness of trading strategies.",
-      "Incorporated stop-loss functionality to manage risk and improve trading performance.",
-      "Developed a backtesting engine for customizable trading strategies with dynamic buy/sell signals.",
+      "Designed and implemented a comprehensive backtesting system for stock trading strategies using Python, increasing simulation speed by 40%.",
+      "Utilized SQL to query and aggregate historical market data from relational databases, improving the accuracy of backtest simulations.",
+      "Designed automated testing pipelines, integrating unit tests into the CI/CD workflow for seamless deployments.",
     ],
   },
   {
@@ -139,10 +138,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "May 2024 - July 2024",
     points: [
-      "Developed the backend for the company’s online store using Node.js and Express.js, reducing server response time by 30% and improving overall site performance.",
-      "Collaborated on the front-end development by creating React components with React.js and Tailwind CSS, enhancing user interface responsiveness and reducing page load time by 15%.",
-      "Integrated Stripe payment gateway into the store’s website, resulting in a 20% increase in successful transactions and a smoother user payment experience.",
-      "Automated CI/CD pipelines and deployed on AWS, reducing deployment time by 40% and ensuring 99.9% uptime.",
+      "Engineered a highly optimized backend for the store app, reducing server response time by 30%, allowing it to handle 1000 concurrent users without lag.",
+      "Enhanced UI responsiveness by developing responsive React components using Tailwind CSS for a smoother cross-device experience.",
+      "Managed large-scale data operations in a scalable music streaming application, leveraging AWS S3 for efficient data storage and retrieval, supporting over 500 daily streams with high throughput and low latency.",
+      // "Automated CI/CD pipelines and deployed on AWS, reducing deployment time by 40% and ensuring 99.9% uptime.",
     ],
   },
   {
@@ -152,9 +151,9 @@ const experiences = [
     iconBg: "#ffffff",
     date: "June 2022 - Dec 2022",
     points: [
-      "Engineered an agile development approach for the company’s website using React, Node.js, and MongoDB; increased traffic by 30% and reduced server response time by 50%, significantly improving site performance..",
-      "Built RESTful APIs with Node.js and Express.js to optimize client-server communication; reduced API response time by 40% and increased scalability to handle 2x more users concurrently.",
-      "Implemented CI/CD pipelines with Jenkins, using Docker and Kubernetes for scalable microservices architecture.",
+      "Developed and maintained Java-based microservices (Spring Boot, Hibernate) for backend while implementing dynamic UI components using Angular and TypeScript, enhancing system scalability, and user experience.",
+      "Designed and optimized RESTful APIs, reducing API response time by 40% and improving server efficiency.",
+      "Automated deployments using CI/CD pipelines with Jenkins, Docker, and Kubernetes, streamlining release processes and enhancing system stability.",
     ],
   },
   {
