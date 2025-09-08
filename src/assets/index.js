@@ -25,6 +25,7 @@ import traderware from "./company/traderware.png";
 import kintsugi from "./company/kintsugi.png";
 import edusoft from "./company/edusoft.png";
 import brandpreneur from "./company/brandpreneur.png";
+import amazon from "./company/amazon.jpg"
 
 // import meta from "./company/meta.png";
 // import shopify from "./company/shopify.png";
@@ -65,6 +66,7 @@ export {
   kintsugi,
   brandpreneur,
   edusoft,
+  amazon,
   carrent,
   jobit,
   tripguide,

@@ -28,6 +28,7 @@ import traderware from "../assets/company/traderware.png";
 import kintsugi from "../assets/company/kintsugi.png";
 import edusoft from "../assets/company/edusoft.png";
 import brandpreneur from "../assets/company/brandpreneur.png";
+import amazon from "../assets/company/amazon.jpg"
 
 export const navLinks = [
   {
@@ -119,6 +120,18 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Software Development Engineer",
+    company_name: "Amazon",
+    icon: amazon,
+    iconBg: "#FFFFFF",
+    date: "July 2025 - Present",
+    points: [
+      "Designed and implemented a comprehensive backtesting system for stock trading strategies using Python, increasing simulation speed by 40%.",
+      "Utilized SQL to query and aggregate historical market data from relational databases, improving the accuracy of backtest simulations.",
+      "Designed automated testing pipelines, integrating unit tests into the CI/CD workflow for seamless deployments.",
+    ],
+  },
   {
     title: "Software Developer Intern",
     company_name: "Traderware",
