@@ -40,7 +40,7 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
 
       <motion.p
@@ -48,7 +48,7 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         I'm a skilled software developer with hands-on
-        experience in TypeScript and JavaScript, and expertise in frameworks
+        experience in Java and TypeScript, and expertise in frameworks
         like React, Node.js and Next.js. During my internships and projects,
         I've collaborated closely with clients to create efficient, scalable,
         and user-friendly solutions that solve real-world problems. I'm a quick

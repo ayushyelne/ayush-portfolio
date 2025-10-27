@@ -47,20 +47,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "Mobile Application Developer",
-    icon: mobile,
+    title: "Software Developer",
+    icon: creator,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Software Developer",
-    icon: creator,
+    title: "Web Developer",
+    icon: web,
+  },
+  {
+    title: "Mobile Application Developer",
+    icon: mobile,
   },
 ];
 
@@ -127,9 +127,9 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "July 2025 - Present",
     points: [
-      "Designed and implemented a comprehensive backtesting system for stock trading strategies using Python, increasing simulation speed by 40%.",
-      "Utilized SQL to query and aggregate historical market data from relational databases, improving the accuracy of backtest simulations.",
-      "Designed automated testing pipelines, integrating unit tests into the CI/CD workflow for seamless deployments.",
+      "Designed and maintained large-scale data pipelines processing 600M+ daily inventory events, ensuring high data accuracy and consistency across AWS SQS, Kinesis, DynamoDB, and Neptune Graph Database.",
+      "Onboarded a new event stream to track inventory disposition changes—enabling teams to identify when items transitioned from sellable to unsellable and confidently remark them as sellable when appropriate—resulting in $20M annual savings and reducing manual resolution efforts by 700+ hours.",
+      "Engineered and deployed dashboards using AWS CDK, aggregating real-time metrics from distributed services for system observability and performance monitoring.",
     ],
   },
   {
@@ -233,7 +233,7 @@ const projects = [
     source_code_link: "https://imaginify-ivory-rho.vercel.app/",
   },
   {
-    name: "Stock Insigts",
+    name: "Stock Insights",
     description:
       "Web-based platform for real-time stock data and portfolio management allowing users to maintain their portfolios and watchlists efficiently.",
     tags: [
